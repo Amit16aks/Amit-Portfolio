@@ -1,0 +1,8 @@
+1. Proficient in Python syntax, data types, 
+functions, control flow (if, loops, 
+break/continue), data structures 
+(lists, tuples, sets, dictionaries), 
+error handling (try/except/finally), 
+and using list comprehensions for efficient 
+data manipulation.
+

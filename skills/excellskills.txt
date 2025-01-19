@@ -1,0 +1,45 @@
+1. Data Organization & Formatting
+Data entry & validation
+Sorting & filtering
+Conditional formatting
+Cell referencing (relative, absolute, mixed)
+2. Formulas & Functions
+Mathematical (SUM, AVERAGE, COUNT, etc.)
+Logical (IF, AND, OR)
+Text (CONCATENATE, LEFT, RIGHT, MID)
+Lookup & Reference (VLOOKUP, HLOOKUP, INDEX, MATCH)
+Date & Time (DATE, NETWORKDAYS, YEARFRAC)
+Financial (PMT, FV, NPV, IRR)
+Array formulas
+3. Data Analysis & Visualization
+Pivot tables & pivot charts
+Data grouping & summarization
+Creating and customizing charts (bar, line, scatter, etc.)
+Data analysis tools (What-If Analysis, Goal Seek, Solver)
+4. Advanced Functions & Techniques
+Advanced filtering (Advanced Filter, AutoFilter)
+Power Query for data import & transformation
+Power Pivot for creating data models
+Dynamic arrays (e.g., UNIQUE, FILTER, SORT)
+5. Automation & Macros
+Recording and editing macros
+VBA programming basics (loops, functions, userforms)
+Automating repetitive tasks
+6. Data Validation & Protection
+Data validation (dropdown lists, input restrictions)
+Sheet and workbook protection (passwords, hidden cells)
+7. Collaboration & Sharing
+Sharing and protecting workbooks (track changes, comments)
+Using Excel Online and collaboration features
+Version control and managing multiple users
+8. Advanced Reporting
+Creating dashboards
+Financial modeling (budgets, forecasts, cash flow models)
+Advanced conditional formatting for reports
+9. Integration with Other Tools
+Import/export from/to databases, CSV, and other formats
+Connecting Excel with external data sources (SQL, web data)
+Excel with Power BI for advanced analytics
+10. Time Management & Productivity
+Shortcuts and efficiency tips
+Templates for common business scenarios (budget, inventory, etc.)

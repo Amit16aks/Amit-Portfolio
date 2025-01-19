@@ -1,0 +1,9 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="70" fill="none" stroke="black" stroke-width="4" />
+  
+  <!-- Modern Artistic "A" -->
+  <path d="M45,110 L75,40 L105,110 L90,110 L75,75 L60,110 Z" 
+        fill="none" stroke="black" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+</svg>

@@ -1,0 +1,53 @@
+
+1. Core Python Programming
+Data types (strings, lists, tuples, dictionaries, sets)
+Control flow (if, elif, else, loops)
+Functions and modules
+Exception handling (try, except, finally)
+2. Object-Oriented Programming (OOP)
+Classes and objects
+Inheritance, polymorphism, encapsulation
+Abstraction and method overriding
+Class methods, static methods, and properties
+3. Data Structures & Algorithms
+Lists, stacks, queues, linked lists, trees, graphs
+Sorting and searching algorithms (bubble, quicksort, etc.)
+Time and space complexity analysis (Big O notation)
+4. File Handling & I/O
+Reading and writing files (text, CSV, JSON, etc.)
+Working with file paths and directories
+File operations with context managers (with)
+5. Libraries & Frameworks
+Data manipulation: NumPy, Pandas
+Web frameworks: Flask, Django
+Visualization: Matplotlib, Seaborn
+Testing: Unittest, pytest
+Regular expressions (re module)
+6. Data Analysis & Machine Learning
+Data preprocessing and cleaning
+Exploratory Data Analysis (EDA)
+Machine learning algorithms (linear regression, decision trees, etc.)
+Scikit-learn for ML model building
+Model evaluation (accuracy, confusion matrix, ROC curve)
+7. APIs & Web Scraping
+Working with RESTful APIs (requests, JSON parsing)
+Web scraping using BeautifulSoup, Scrapy
+Handling HTTP requests and responses
+8. Database Interaction
+SQL integration (SQLite, MySQL, PostgreSQL)
+ORM with SQLAlchemy
+CRUD operations using Python
+9. Automation & Scripting
+Task automation (file operations, web scraping)
+Scripting for system administration tasks
+10. Version Control & Collaboration
+Git for version control
+GitHub for code sharing and collaboration
+11. Testing & Debugging
+Writing unit tests
+Debugging using pdb, logging
+Test-driven development (TDD)
+12. Cloud & Deployment
+Working with cloud platforms (AWS, GCP, Heroku)
+Docker for containerization
+CI/CD pipelines

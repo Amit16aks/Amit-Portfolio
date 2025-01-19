@@ -1,0 +1,39 @@
+Power BI Portfolio Skills
+1. Data Modeling
+Creating tables, relationships, and hierarchies
+Data normalization and transformation (star schema, snowflake)
+Handling complex data sources (SQL, Excel, Web API)
+2. DAX (Data Analysis Expressions)
+Measures, calculated columns, and tables
+Time intelligence (YTD, MTD, QTD)
+Advanced calculations (FILTER, ALL, CALCULATE)
+3. Data Visualization
+Interactive dashboards (Charts, Tables, Maps, KPIs)
+Custom visuals (Power BI Marketplace)
+Conditional formatting and drillthrough features
+4. Power Query (ETL)
+Data loading and shaping (M code)
+Merging, appending, and pivoting data
+Error handling and data cleansing techniques
+5. Power BI Service
+Publishing reports and dashboards
+Sharing and collaboration (Workspaces, Apps)
+Setting up Power BI security (Row-level security, permissions)
+6. Performance Optimization
+Query folding, aggregations
+Efficient DAX calculations
+Report performance tuning
+7. Power BI Integration
+Embedding Power BI reports in apps (Power BI Embedded)
+Integrating with other Microsoft tools (Excel, SharePoint, Teams)
+8. Automation & Alerts
+Setting up data refresh schedules
+Creating data-driven alerts
+9. User Experience (UX)
+Report design best practices
+User-friendly navigation (Slicers, Bookmarks)
+Consistent visual theming and layout
+10. Advanced Analytics
+Forecasting and trend analysis
+Statistical analysis (Correlation, Regression)
+Integration with Python/R for advanced analytics
