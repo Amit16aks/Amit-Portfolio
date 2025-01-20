@@ -1262,8 +1262,9 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://docs.google.com/forms/d/e/1FAIpQLSdCx90OUjrnoXZGJwnLb1IF7UE6bU9tvQh1IQNdvEkRA98iog/formResponse" method="POST" class="form" data-form>
-
+          <form id="contact-form" onsubmit="handleFormSubmit(event)">
+          <!--<form action="https://docs.google.com/forms/d/e/1FAIpQLSdCx90OUjrnoXZGJwnLb1IF7UE6bU9tvQh1IQNdvEkRA98iog/formResponse" method="POST" class="form" data-form>
+          -->
             <div class="input-wrapper">
               <input type="text" name="entry.1513767653" class="form-input" placeholder="Full name" required data-form-input>
 
@@ -1279,6 +1280,12 @@
             </button>
 
           </form>
+
+          <!-- Popup Confirmation -->
+          <div id="form-popup" class="popup hidden">
+            <p>Thanks for contacting, I will address you shortly!</p>
+            <button onclick="closePopup()">Close</button>
+          </div>
 
         
         </section>

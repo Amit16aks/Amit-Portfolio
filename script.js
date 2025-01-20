@@ -114,24 +114,86 @@ for (let i = 0; i < filterBtn.length; i++) {
 }
 
 
-
-// contact form variables
-const form = document.querySelector("[data-form]");
+// Select form elements
+const form = document.querySelector("#contact-form");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
+const popup = document.querySelector("#form-popup");
 
-// add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
+// Helper function to validate email
+function isValidEmail(email) {
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailPattern.test(email);
+}
 
-    // check form validation
-    if (form.checkValidity()) {
+// Add event listener to validate input fields on input
+formInputs.forEach((input) => {
+  input.addEventListener("input", () => {
+    // Enable the button if all fields are valid
+    if (validateForm()) {
       formBtn.removeAttribute("disabled");
     } else {
       formBtn.setAttribute("disabled", "");
     }
-
   });
+});
+
+// Form validation logic
+function validateForm() {
+  let isValid = true;
+
+  // Check each input
+  formInputs.forEach((input) => {
+    if (input.type === "email") {
+      // Validate email
+      if (!isValidEmail(input.value)) {
+        isValid = false;
+      }
+    } else {
+      // Ensure other fields are not empty
+      if (input.value.trim() === "") {
+        isValid = false;
+      }
+    }
+  });
+
+  return isValid;
+}
+
+// Handle form submission
+function handleFormSubmit(event) {
+  event.preventDefault(); // Prevent default submission
+
+  if (!validateForm()) {
+    alert("Please fill out all fields correctly.");
+    return;
+  }
+
+  const formData = new FormData(form);
+
+  // Submit data to Google Forms
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLSdCx90OUjrnoXZGJwnLb1IF7UE6bU9tvQh1IQNdvEkRA98iog/formResponse", {
+    method: "POST",
+    body: formData,
+    mode: "no-cors", // Prevent CORS issues
+  })
+    .then(() => {
+      // Show the popup on success
+      popup.classList.remove("hidden");
+    })
+    .catch((error) => {
+      console.error("Submission error:", error);
+      alert("Something went wrong. Please try again.");
+    });
+
+  // Reset the form
+  form.reset();
+  formBtn.setAttribute("disabled", ""); // Disable the button again
+}
+
+// Close the popup
+function closePopup() {
+  popup.classList.add("hidden");
 }
 
 
